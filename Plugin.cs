@@ -11,7 +11,7 @@ namespace NoVomitingMask
 		{
 			Logger.LogInfo($"Patching...");
 			Harmony.CreateAndPatchAll(typeof(Plugin));
-			Logger.LogInfo($"Patch successful!");
+			Logger.LogInfo($"Patched!");
 		}
 		
 		[HarmonyPatch(typeof(MaskedPlayerEnemy), "Start")]

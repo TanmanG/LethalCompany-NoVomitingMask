@@ -1,0 +1,7 @@
+{
+    "name": "Anti_Nausea_Company",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/TanmanG/LethalCompany-NoVomitingMask",
+    "description": "Removes blood/vomiting particles and sounds from the mask!",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}
